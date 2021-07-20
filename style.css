@@ -1,0 +1,16 @@
+.banner-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .banner-row {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .banner-row {
+        padding-top: 0;
+    }
+}
